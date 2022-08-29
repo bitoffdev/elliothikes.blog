@@ -23,8 +23,11 @@ jobs:
         run: npx license-checker --onlyAllow 'MIT;BSD;Apache-2.0;CC0-1.0;CC-BY-3.0;CC-BY-4.0;ISC;Hippocratic-2.1;MPL-2.0;ODC-By-1.0;WTFPL;Unlicense'
 
   build:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-
+    
     steps:
       - uses: actions/checkout@v2
 
@@ -39,10 +42,12 @@ jobs:
           npm run build
           cp -r data dist
 
-
-      - name: Create a new commit to gh-pages
-        run: |
-          git add --force dist
-          git -c user.name="GitHub Actions" -c user.email="actions@github.com" commit -m "Apply automatic changes" --author="${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
-          git subtree split --prefix dist -b gh-pages
-          git push --force origin gh-pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: 'dist'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
