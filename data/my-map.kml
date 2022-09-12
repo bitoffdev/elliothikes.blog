@@ -111,7 +111,7 @@
         <name>
           <name>Field</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.43332,44.196174,0</coordinates>
         </Point>
@@ -336,7 +336,7 @@
         <name>
           <name>Tom</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.445894,44.210357,0</coordinates>
         </Point>
@@ -426,7 +426,7 @@
         <name>
           <name>Willey</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.42096,44.183866,0</coordinates>
         </Point>
