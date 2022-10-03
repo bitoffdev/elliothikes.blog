@@ -282,7 +282,7 @@
         <name>
           <name>Osceola</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.535802,44.001459,0</coordinates>
         </Point>
@@ -291,7 +291,7 @@
         <name>
           <name>Osceola, East</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.520481,44.006089,0</coordinates>
         </Point>
