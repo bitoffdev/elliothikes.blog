@@ -1,6 +1,7 @@
 {
   "name": "elliothikes.blog",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "start": "vite",
     "build": "vite build",
