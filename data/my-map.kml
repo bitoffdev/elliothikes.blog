@@ -219,7 +219,7 @@
         <name>
           <name>Lafayette</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.644464,44.16078,0</coordinates>
         </Point>
@@ -237,7 +237,7 @@
         <name>
           <name>Lincoln</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.644678,44.148587,0</coordinates>
         </Point>
