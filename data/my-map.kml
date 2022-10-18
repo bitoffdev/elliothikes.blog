@@ -390,7 +390,7 @@
         <name>
           <name>Waumbek</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.417484,44.432677,0</coordinates>
         </Point>
