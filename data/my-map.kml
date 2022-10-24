@@ -75,7 +75,7 @@
         <name>
           <name>Carter Dome</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.179004,44.267268,0</coordinates>
         </Point>
@@ -408,7 +408,7 @@
         <name>
           <name>Wildcat A</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.201663,44.25897,0</coordinates>
         </Point>
@@ -417,7 +417,7 @@
         <name>
           <name>Wildcat D</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.22385,44.249472,0</coordinates>
         </Point>
