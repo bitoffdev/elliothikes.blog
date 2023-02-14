@@ -201,7 +201,7 @@
         <name>
           <name>Kinsman, North</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.736946,44.133404,0</coordinates>
         </Point>
@@ -210,7 +210,7 @@
         <name>
           <name>Kinsman, South</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.736774,44.122869,0</coordinates>
         </Point>
