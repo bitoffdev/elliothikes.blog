@@ -19,6 +19,15 @@
       </Style>
       <Placemark>
         <name>
+          <name>Adams</name>
+        </name>
+        <styleUrl>#red-paddle</styleUrl>
+        <Point>
+          <coordinates>-71.291389,44.320556,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>
           <name>Bond</name>
         </name>
         <styleUrl>#red-paddle</styleUrl>
