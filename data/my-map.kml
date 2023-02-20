@@ -354,7 +354,7 @@
         <name>
           <name>Tripyramid, Middle</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.440187,43.964619,0</coordinates>
         </Point>
@@ -363,7 +363,7 @@
         <name>
           <name>Tripyramid, North</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.44289,43.973144,0</coordinates>
         </Point>
