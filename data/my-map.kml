@@ -327,7 +327,7 @@
         <name>
           <name>Pierce</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.365771,44.226535,0</coordinates>
         </Point>
