@@ -55,13 +55,6 @@ const hikeVectors = hikeGpxUrls.map(
   })
 );
 
-// const pierceVector = new VectorLayer({
-//   source: new VectorSource({
-//     url: "data/hikes/2023-03-05_mount_pierce.gpx",
-//     format: new GPX(),
-//   }),
-// });
-
 const map = new Map({
   layers: [backgroundVector, ...hikeVectors, vector],
   target: document.getElementById("map"),
