@@ -1,15 +1,15 @@
-import GPX from 'ol/format/GPX';
+import GPX from "ol/format/GPX";
 import KML from "ol/format/KML";
 import Map from "ol/Map";
 import VectorSource from "ol/source/Vector";
 import View from "ol/View";
 import GeoJSON from "ol/format/GeoJSON";
 import { Tile as TileLayer, Vector as VectorLayer } from "ol/layer";
-import {Stroke, Style} from 'ol/style.js';
+import { Stroke, Style } from "ol/style.js";
 
 const routeStyle = new Style({
   stroke: new Stroke({
-    color: '#eb7d34',
+    color: "#eb7d34",
     width: 2,
   }),
 });
@@ -46,13 +46,14 @@ const hikeGpxUrls = [
 ];
 
 const hikeVectors = hikeGpxUrls.map(
-  url => new VectorLayer({
-    source: new VectorSource({
-      url: url,
-      format: new GPX(),
-    }),
-    style: routeStyle,
-  })
+  (url) =>
+    new VectorLayer({
+      source: new VectorSource({
+        url: url,
+        format: new GPX(),
+      }),
+      style: routeStyle,
+    })
 );
 
 const map = new Map({
