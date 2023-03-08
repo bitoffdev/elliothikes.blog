@@ -1,0 +1,12 @@
+{
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": { "parser": "json" }
+    },
+    {
+      "files": "*.kml",
+      "options": { "parser": "xml" }
+    }
+  ]
+}

@@ -7,7 +7,7 @@ import GeoJSON from "ol/format/GeoJSON";
 import { Tile as TileLayer, Vector as VectorLayer } from "ol/layer";
 import { Stroke, Style } from "ol/style.js";
 
-const routeStyle = new Style({
+const trailStyle = new Style({
   stroke: new Stroke({
     color: "#eb7d34",
     width: 2,
@@ -20,6 +20,23 @@ const backgroundVector = new VectorLayer({
     format: new GeoJSON(),
   }),
 });
+
+const roadKmlUrls = [
+  "data/roads/i93.kml",
+  "data/roads/nh16.kml",
+  "data/roads/nh112.kml",
+  "data/roads/nh302.kml",
+];
+
+const roadVectors = roadKmlUrls.map(
+  (url) =>
+    new VectorLayer({
+      source: new VectorSource({
+        url: url,
+        format: new KML(),
+      }),
+    })
+);
 
 const vector = new VectorLayer({
   source: new VectorSource({
@@ -52,12 +69,12 @@ const hikeVectors = hikeGpxUrls.map(
         url: url,
         format: new GPX(),
       }),
-      style: routeStyle,
+      style: trailStyle,
     })
 );
 
 const map = new Map({
-  layers: [backgroundVector, ...hikeVectors, vector],
+  layers: [backgroundVector, ...roadVectors, ...hikeVectors, vector],
   target: document.getElementById("map"),
   view: new View({
     center: [/*x=*/ -7950000, 5500000],
