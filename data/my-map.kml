@@ -165,7 +165,7 @@
         <name>
           <name>Hancock</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.493273,44.083331,0</coordinates>
         </Point>
@@ -174,7 +174,7 @@
         <name>
           <name>Hancock, South</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.487093,44.073311,0</coordinates>
         </Point>
