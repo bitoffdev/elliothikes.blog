@@ -75,7 +75,7 @@
         <name>
           <name>Carrigain</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.446924,44.093411,0</coordinates>
         </Point>
