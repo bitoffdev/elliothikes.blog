@@ -57,7 +57,7 @@
         <name>
           <name>Cabot</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.414394,44.505963,0</coordinates>
         </Point>
@@ -309,7 +309,7 @@
         <name>
           <name>Owl's Head</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.604853,44.144368,0</coordinates>
         </Point>
