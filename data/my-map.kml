@@ -30,7 +30,7 @@
         <name>
           <name>Bond</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.530995,44.152806,0</coordinates>
         </Point>
@@ -39,7 +39,7 @@
         <name>
           <name>Bondcliff</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.542068,44.139841,0</coordinates>
         </Point>
@@ -48,7 +48,7 @@
         <name>
           <name>Bond, West</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.544085,44.154438,0</coordinates>
         </Point>
@@ -156,7 +156,7 @@
         <name>
           <name>Hale</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.512113,44.221707,0</coordinates>
         </Point>
@@ -372,7 +372,7 @@
         <name>
           <name>Twin, North</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.557646,44.202482,0</coordinates>
         </Point>
@@ -381,7 +381,7 @@
         <name>
           <name>Twin, South</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.554685,44.18762,0</coordinates>
         </Point>
@@ -444,7 +444,7 @@
         <name>
           <name>Zealand</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.521254,44.179311,0</coordinates>
         </Point>
