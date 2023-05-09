@@ -138,7 +138,7 @@
         <name>
           <name>Galehead</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.573396,44.185097,0</coordinates>
         </Point>
@@ -147,7 +147,7 @@
         <name>
           <name>Garfield</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.611204,44.187374,0</coordinates>
         </Point>
