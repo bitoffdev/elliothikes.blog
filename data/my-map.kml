@@ -21,7 +21,7 @@
         <name>
           <name>Adams</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.291389,44.320556,0</coordinates>
         </Point>
@@ -201,7 +201,7 @@
         <name>
           <name>Jefferson</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.316848,44.304196,0</coordinates>
         </Point>
