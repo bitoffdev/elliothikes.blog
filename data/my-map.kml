@@ -111,7 +111,7 @@
         <name>
           <name>Eisenhower</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.350193,44.240526,0</coordinates>
         </Point>
@@ -192,7 +192,7 @@
         <name>
           <name>Jackson</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.375299,44.203097,0</coordinates>
         </Point>
@@ -264,7 +264,7 @@
         <name>
           <name>Monroe</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.321483,44.255036,0</coordinates>
         </Point>
