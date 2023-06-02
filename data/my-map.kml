@@ -390,7 +390,7 @@
         <name>
           <name>Washington</name>
         </name>
-        <styleUrl>#red-paddle</styleUrl>
+        <styleUrl>#green-paddle</styleUrl>
         <Point>
           <coordinates>-71.303501,44.270403,0</coordinates>
         </Point>
